@@ -11,9 +11,9 @@
 
 A, B=map(int, input().split()) # 사용자로부터 두 개의 정수 입력받기
 
-if A>B:
-    print(">")
-elif A<B:
-    print("<")
-else:
+if A>B: # 만약, A가 B보다 크다면
+    print(">") # > 출력하기
+elif A<B: # 만약, A가 B보다 크지 않고, A가 B보다 작다면
+    print("<") # < 출력하기
+else: 
     print("==")
