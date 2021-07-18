@@ -9,7 +9,7 @@
   3. A와 B가 같은 경우에는 '=='를 출력한다.
 """
 
-A, B=map(int, input().split())
+A, B=map(int, input().split()) # 사용자로부터 두 개의 정수 입력받기
 
 if A>B:
     print(">")
